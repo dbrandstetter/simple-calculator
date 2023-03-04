@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Calculator">
+    <output-path>$PROJECT_DIR$/out/artifacts/Calculator</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="applications.Calculator" />
+        <option name="description" value="A simple JavaFX Calculator App." />
+        <option name="height" value="540" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="linuxIcon" value="$PROJECT_DIR$/src/main/resources/applications/appIcon.png" />
+            <option name="macIcon" value="$PROJECT_DIR$/src/main/resources/applications/appIcon.icns" />
+            <option name="windowsIcon" value="$PROJECT_DIR$/src/main/resources/applications/appIcon.ico" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="title" value="Calculator" />
+        <option name="vendor" value="" />
+        <option name="version" value="1.0" />
+        <option name="width" value="800" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Calculator.jar">
+        <element id="module-output" name="Calculator" />
+      </element>
+    </root>
+  </artifact>
+</component>

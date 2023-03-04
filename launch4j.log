@@ -1,0 +1,35 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\David\OneDrive - HTL Wien 3 Rennweg\SEW\Calculator\simpleCalculator.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\David\OneDrive - HTL Wien 3 Rennweg\SEW\Calculator\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	1.007.000
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Users\David\AppData\Local\Microsoft\WindowsApps;C:\Users\David\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\David\AppData\Local\JetBrains\Toolbox\scripts;;C:\Program Files (x86)\Java\jre1.8.0_361\bin
+JRE paths:	;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Users\David\AppData\Local\Microsoft\WindowsApps;C:\Users\David\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\David\AppData\Local\JetBrains\Toolbox\scripts;;C:\Program Files (x86)\Java\jre1.8.0_361\bin
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\VMware\VMware Workstation\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\system32\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\PuTTY\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Docker\Docker\resources\bin\javaw.exe (not found)
+Check launcher:	C:\ProgramData\DockerDesktop\version-bin\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\Users\David\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Users\David\AppData\Local\Programs\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\Users\David\AppData\Local\JetBrains\Toolbox\scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_361\bin\javaw.exe (OK)
+Version string: 1.008.000_361 / 32-Bit (OK)
+Launcher:	C:\Program Files (x86)\Java\jre1.8.0_361\bin\javaw.exe
+Launcher args:	-jar "C:\Users\David\OneDrive - HTL Wien 3 Rennweg\SEW\Calculator\simpleCalculator.exe"
+Args length:	87/32768 chars
+Exit code:	0

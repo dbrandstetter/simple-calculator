@@ -135,6 +135,14 @@ public class Calculator extends Application {
 			} catch (Exception e) {
 				result.setText("Please enter valid numbers!");
 			}
+
+			// Mark this button as clicked and reset others
+			buttonPlus.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #c06400; -fx-background-radius: 10px");
+			buttonMinus.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonMult.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonDiv.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonMod.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonPow.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
 		});
 
 		buttonMinus.setOnAction(actionEvent -> {
@@ -146,6 +154,14 @@ public class Calculator extends Application {
 			} catch (Exception e) {
 				result.setText("Please enter valid numbers!");
 			}
+
+			// Mark this button as clicked and reset others
+			buttonPlus.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonMinus.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #c06400; -fx-background-radius: 10px");
+			buttonMult.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonDiv.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonMod.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonPow.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
 		});
 
 		buttonMult.setOnAction(actionEvent -> {
@@ -157,6 +173,14 @@ public class Calculator extends Application {
 			} catch (Exception e) {
 				result.setText("Please enter valid numbers!");
 			}
+
+			// Mark this button as clicked and reset others
+			buttonPlus.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonMinus.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonMult.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #c06400; -fx-background-radius: 10px");
+			buttonDiv.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonMod.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonPow.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
 		});
 
 		buttonDiv.setOnAction(actionEvent -> {
@@ -168,6 +192,14 @@ public class Calculator extends Application {
 			} catch (Exception e) {
 				result.setText("Please enter valid numbers!");
 			}
+
+			// Mark this button as clicked and reset others
+			buttonPlus.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonMinus.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonMult.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonDiv.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #c06400; -fx-background-radius: 10px");
+			buttonMod.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonPow.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
 		});
 
 		buttonMod.setOnAction(actionEvent -> {
@@ -179,6 +211,14 @@ public class Calculator extends Application {
 			} catch (Exception e) {
 				result.setText("Please enter valid numbers!");
 			}
+
+			// Mark this button as clicked and reset others
+			buttonPlus.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonMinus.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonMult.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonDiv.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonMod.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #c06400; -fx-background-radius: 10px");
+			buttonPow.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
 		});
 
 		buttonPow.setOnAction(actionEvent -> {
@@ -190,6 +230,14 @@ public class Calculator extends Application {
 			} catch (Exception e) {
 				result.setText("Please enter valid numbers!");
 			}
+
+			// Mark this button as clicked and reset others
+			buttonPlus.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonMinus.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonMult.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonDiv.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonMod.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #FF8C00; -fx-background-radius: 10px");
+			buttonPow.setStyle("-fx-font-size:20;-fx-font-family:'DejaVu Math TeX Gyre'; -fx-background-color: #c06400; -fx-background-radius: 10px");
 		});
 
 		// Show stage and create window

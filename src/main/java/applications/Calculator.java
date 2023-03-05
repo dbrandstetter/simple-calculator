@@ -131,7 +131,7 @@ public class Calculator extends Application {
 				double num1 = Double.parseDouble(input1.getText());
 				double num2 = Double.parseDouble(input2.getText());
 				double sum = num1 + num2;
-				result.setText("" + sum);
+				result.setText("    " + sum);
 			} catch (Exception e) {
 				result.setText("Please enter valid numbers!");
 			}
@@ -142,7 +142,7 @@ public class Calculator extends Application {
 				double num1 = Double.parseDouble(input1.getText());
 				double num2 = Double.parseDouble(input2.getText());
 				double difference = num1 - num2;
-				result.setText("" + difference);
+				result.setText("    " + difference);
 			} catch (Exception e) {
 				result.setText("Please enter valid numbers!");
 			}
@@ -153,7 +153,7 @@ public class Calculator extends Application {
 				double num1 = Double.parseDouble(input1.getText());
 				double num2 = Double.parseDouble(input2.getText());
 				double product = num1 * num2;
-				result.setText("" + product);
+				result.setText("    " + product);
 			} catch (Exception e) {
 				result.setText("Please enter valid numbers!");
 			}
@@ -164,7 +164,7 @@ public class Calculator extends Application {
 				double num1 = Double.parseDouble(input1.getText());
 				double num2 = Double.parseDouble(input2.getText());
 				double quotient = num1 / num2;
-				result.setText("" + quotient);
+				result.setText("    " + quotient);
 			} catch (Exception e) {
 				result.setText("Please enter valid numbers!");
 			}
@@ -175,7 +175,7 @@ public class Calculator extends Application {
 				double num1 = Double.parseDouble(input1.getText());
 				double num2 = Double.parseDouble(input2.getText());
 				double remainder = num1 % num2;
-				result.setText("" + remainder);
+				result.setText("    " + remainder);
 			} catch (Exception e) {
 				result.setText("Please enter valid numbers!");
 			}
@@ -186,7 +186,7 @@ public class Calculator extends Application {
 				double num1 = Double.parseDouble(input1.getText());
 				double num2 = Double.parseDouble(input2.getText());
 				double potency = Math.pow(num1, num2);
-				result.setText("" + potency);
+				result.setText("    " + potency);
 			} catch (Exception e) {
 				result.setText("Please enter valid numbers!");
 			}

@@ -2,12 +2,12 @@
 <launch4jConfig>
   <dontWrapJar>false</dontWrapJar>
   <headerType>gui</headerType>
-  <jar>C:\Users\David\OneDrive - HTL Wien 3 Rennweg\SEW\Calculator\out\artifacts\Calculator_jar\Calculator.jar</jar>
+  <jar>C:\Users\David\OneDrive - HTL Wien 3 Rennweg\SEW\Calculator\Calculator.jar</jar>
   <outfile>C:\Users\David\OneDrive - HTL Wien 3 Rennweg\SEW\Calculator\simpleCalculator.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>
-  <priority>normal</priority>
+  <priority>high</priority>
   <downloadUrl></downloadUrl>
   <supportUrl></supportUrl>
   <stayAlive>false</stayAlive>
@@ -18,7 +18,7 @@
     <path>%JAVA_HOME%;%PATH%</path>
     <requiresJdk>false</requiresJdk>
     <requires64Bit>false</requires64Bit>
-    <minVersion>1.7.0</minVersion>
+    <minVersion>1.4.0</minVersion>
     <maxVersion></maxVersion>
   </jre>
 </launch4jConfig>

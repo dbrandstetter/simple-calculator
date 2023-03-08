@@ -16,6 +16,8 @@ import javafx.scene.text.Text;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 
+import java.util.function.BinaryOperator;
+
 /**
  * The Calculator class implements a JavaFX application and is used for simple
  * arithmetic calculations like addition, subtraction, multiplication, division,
@@ -24,10 +26,10 @@ import javafx.stage.Stage;
  * @author David Brandstetter
  */
 public class Calculator extends Application {
-
     public static void main(String[] args) {
         launch(args);
     }
+
 
     @Override
     public void start(Stage primaryStage) {
@@ -126,8 +128,7 @@ public class Calculator extends Application {
             try {
                 double num1 = Double.parseDouble(input1.getText());
                 double num2 = Double.parseDouble(input2.getText());
-                double sum = num1 + num2;
-                result.setText("    " + sum);
+                result.setText("    " + (num1 + num2));
             } catch (Exception e) {
                 result.setText("Please enter valid numbers!");
             }
@@ -145,8 +146,7 @@ public class Calculator extends Application {
             try {
                 double num1 = Double.parseDouble(input1.getText());
                 double num2 = Double.parseDouble(input2.getText());
-                double difference = num1 - num2;
-                result.setText("    " + difference);
+                result.setText("    " + (num1 - num2));
             } catch (Exception e) {
                 result.setText("Please enter valid numbers!");
             }
@@ -164,8 +164,7 @@ public class Calculator extends Application {
             try {
                 double num1 = Double.parseDouble(input1.getText());
                 double num2 = Double.parseDouble(input2.getText());
-                double product = num1 * num2;
-                result.setText("    " + product);
+                result.setText("    " + (num1 * num2));
             } catch (Exception e) {
                 result.setText("Please enter valid numbers!");
             }
@@ -183,8 +182,7 @@ public class Calculator extends Application {
             try {
                 double num1 = Double.parseDouble(input1.getText());
                 double num2 = Double.parseDouble(input2.getText());
-                double quotient = num1 / num2;
-                result.setText("    " + quotient);
+                result.setText("    " + (num1 /  num2));
             } catch (Exception e) {
                 result.setText("Please enter valid numbers!");
             }
@@ -202,8 +200,7 @@ public class Calculator extends Application {
             try {
                 double num1 = Double.parseDouble(input1.getText());
                 double num2 = Double.parseDouble(input2.getText());
-                double remainder = num1 % num2;
-                result.setText("    " + remainder);
+                result.setText("    " + (num1 % num2));
             } catch (Exception e) {
                 result.setText("Please enter valid numbers!");
             }
@@ -221,8 +218,7 @@ public class Calculator extends Application {
             try {
                 double num1 = Double.parseDouble(input1.getText());
                 double num2 = Double.parseDouble(input2.getText());
-                double potency = Math.pow(num1, num2);
-                result.setText("    " + potency);
+                result.setText("    " + Math.pow(num1, num2));
             } catch (Exception e) {
                 result.setText("Please enter valid numbers!");
             }
